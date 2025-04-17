@@ -15,7 +15,7 @@
 - [Data Availability](#-data-availability)
 - [Citation](#-citation)
 - [Contact](#-contact)
-- [License and Attribution](#license-and-attribution)
+- [License and Attribution](#-license-and-attribution)
 
 ## Introduction
 
