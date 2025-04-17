@@ -1,13 +1,13 @@
 """
-This is the main script for cross-session paper[1]. 
+This is the main script for cross-session MI EEG decoding with RSFDA [1].
 The code is based on the neurodeckit package.
 
 Author: LC.Pan <panlincong@tju.edu.cn.com>
 Date: 2024/6/30
 License: All rights reserved
 
-[1] Pan, LC, et al. "Cross-session MI-EEG decoding with Riemannian spatial filtering and domain adaptation." 
-Chinese Journal of Scientific Instrument (2024).
+[1] LC, Pan, et al. "Cross-session motor imagery-electroencephalography decoding with Riemannian spatial filtering and domain adaptation." 
+Journal of Biomedical Engineering, 2025, 42(2).
 
 """
 
@@ -177,7 +177,6 @@ def models(X_train, y_train, X_test, y_test, target_domain=None, fs=None, file_n
             with open(file_name, 'r') as f:
                 results = [json.loads(line) for line in f.readlines()]
                 if any(result['model_name'] == model_name[i] for result in results):
-                    print(f"Model {model_name[i]} has been trained, skip it.")
                     continue    
         
         # train the model and evaluate the performance
@@ -207,16 +206,16 @@ if __name__ == '__main__':
     for dataset_name in ['Pan2023', 'BNCI2014_001', 'BNCI2015_001']:
         
         # difine the ratio of target domain training samples
-        ratio=0.2
+        ratio = 0.2
         
         # define the result folder
-        folder = f'./results_for_paper2024/cross_sessions_{ratio}_new/{dataset_name}'
+        folder = f'./cross_sessions/{dataset_name}'
         if not os.path.exists(folder):
             os.makedirs(folder)
         
         # initialize the dataset
         fs = 128 # sampling frequency
-        datapath = 'datasets' # path to the dataset folder
+        datapath = None # path to the dataset folder (if None, use the default path)
         if dataset_name == 'BNCI2015_001':
             dataset = Dataset_MI(dataset_name,fs=fs,fmin=1,fmax=40,tmin=0,tmax=4,path=datapath)
         else:
