@@ -104,6 +104,8 @@ If you use this code, please cite:
   month={April},
   volume={42},
   number={2},
+  pages={1-8},
+  html={https://link.cnki.net/urlid/51.1258.R.20250414.1026.004},
 }
 ```
 

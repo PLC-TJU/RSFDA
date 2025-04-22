@@ -107,6 +107,8 @@ BCI算法的开源基准测试框架
   year={2025},
   volume={42},
   number={2},
+  pages={1-8},
+  html={https://link.cnki.net/urlid/51.1258.R.20250414.1026.004},
 }
 ```
 
