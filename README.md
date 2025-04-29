@@ -104,9 +104,9 @@ If you use this code, please cite:
   month={April},
   volume={42},
   number={2},
-  pages={1-8},
+  pages={272-279},
   doi={10.7507/1001-5515.202411035},
-  html={https://link.cnki.net/urlid/51.1258.R.20250414.1026.004},
+  issn={1001-5515},
 }
 ```
 
