@@ -32,9 +32,14 @@
 
 ## 📁 项目结构
 ```plaintext
-CTSSP/
+RSFDA/
 ├── requirements.txt        # 依赖包清单
 ├── main_cross_session.py   # 跨会话分类主程序
+|
+├── matlab version/         # matlab版本的源代码
+|   ├── rsfda/              # RSFDA算法源代码
+|   ├── rsfda_modeling      # RSFDA模型训练代码
+|   ├── rsfda_classify      # RSFDA模型分类代码        
 ```
 
 ## 🔧 安装指南

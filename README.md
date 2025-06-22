@@ -33,10 +33,14 @@ The algorithm’s modular architecture ensures seamless integration of these com
 
 ## 📁 Project Structure
 ```plaintext
-CTSSP/
+RSFDA/
 ├── requirements.txt        # Required packages
-├── main_cross_session.py  # Cross-session classification pipeline
-
+├── main_cross_session.py   # Cross-session classification pipeline
+|
+├── matlab version/         # matlab version of RSFDA algorithm
+|   ├── rsfda/              # RSFDA algorithm implementation
+|   ├── rsfda_modeling      # RSFDA modeling code
+|   ├── rsfda_classify      # RSFDA classification code
 ```
 
 ## 🔧 Installation & Setup
