@@ -98,7 +98,7 @@ We used the following public datasets:
 
 
 ## 📜 Citation
-If you use this code, please cite:  
+If you use this code, please cite at least one of the following articles, thank you for your support:  
 ```
 @article{pan2025rsfda,
   title={Cross-session motor imagery-electroencephalography decoding with Riemannian spatial filtering and domain adaptation}, 
@@ -111,6 +111,31 @@ If you use this code, please cite:
   pages={272-279},
   doi={10.7507/1001-5515.202411035},
   issn={1001-5515},
+}
+
+@article{pan2025rsf,
+  title={Enhancing Motor Imagery EEG Classification with a Riemannian Geometry-Based Spatial Filtering (RSF) Method}, 
+  author={Lincong, Pan and Kun, Wang and Yongzhi Huang and Xinwei, Sun and Jiayuan Meng and Weibo Yi and Minpeng, Xu and Tzyy-Ping Jung and Dong, Ming},
+  journal={Neural Networks},
+  year={2025},
+  month={April},
+  day={22},
+  volume={188},
+  number={107511},
+  doi={10.1016/j.neunet.2025.107511},    
+  publisher={Elsevier}
+}
+
+@article{pan2023rave,
+  title={Riemannian geometric and ensemble learning for decoding cross-session motor imagery electroencephalography signals}, 
+  author={Lincong, Pan and Kun, Wang and Lichao Xu and Xinwei, Sun and Weibo Yi and Minpeng, Xu and Dong, Ming},
+  journal={Journal of Neural Engineering},
+  year={2023},
+  volume={20},
+  number={6},
+  pages={066011},
+  doi={10.1088/1741-2552/ad0a01},    
+  publisher={IOP Publishing}
 }
 ```
 
